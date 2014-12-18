@@ -1,6 +1,6 @@
 {
   "name": "gulp-unretina",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Scales @2x images down to standard resolution",
   "main": "index.js",
   "homepage": "https://github.com/ramonfritsch/gulp-unretina",
