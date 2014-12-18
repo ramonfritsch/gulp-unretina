@@ -1,0 +1,48 @@
+{
+  "name": "gulp-unretina",
+  "version": "0.1.0",
+  "description": "Scales @2x images down to standard resolution",
+  "main": "index.js",
+  "homepage": "https://github.com/ramonfritsch/gulp-unretina",
+  "author": {
+    "name": "Ramon Fritsch",
+    "email": "ramonfritsch@gmail.com",
+    "url": "http://www.cargocollective.com/ramon/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ramonfritsch/gulp-unretina.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ramonfritsch/gulp-unretina/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ramonfritsch/gulp-unretina/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^3.5.5",
+  },
+  "keywords": [
+    "gulpplugin",
+    "gulpfriendly",
+    "unretina",
+    "retina",
+    "resize",
+    "resolution",
+    "image"
+  ],
+  "dependencies": {
+    "gm": "^1.17.0",
+    "through2": "^0.6.3",
+    "lodash": "^2.4.1"
+  }
+}
