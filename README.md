@@ -53,7 +53,7 @@ gulp.task('default', function () {
 Type: `String`
 Default value: `"@2x"`
 
-Sufix to be removed from filename. You can disable this function with false or empty ("") values.
+Sufix to be removed from filename. You can disable this function with `false` or empty `""` values.
 
 
 #### options.quality
