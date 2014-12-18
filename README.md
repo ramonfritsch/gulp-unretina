@@ -114,4 +114,4 @@ MIT © [Ramon Fritsch](http://www.cargocollective.com/ramon/)
 ## Release History
 
  * 2014-12-17   v0.1.1   Adding README.md and removing unused options.
- * 2014-12-17   v0.1.1   Initial release.
+ * 2014-12-17   v0.1.0   Initial release.
