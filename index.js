@@ -4,7 +4,6 @@ var _ = require("lodash");
 
 module.exports = function imageResizer(options) {
 	options = _.defaults(options || {}, {
-		overwrite : true,
 		quality : 1,
 		suffix: "@2x"
 	});
@@ -45,7 +44,10 @@ module.exports = function imageResizer(options) {
 					}
 					else
 					{
-						file.path = file.path.replace(options.suffix + ".", ".");
+						if (options.suffix !== false || options.suffix !== "")
+						{
+							file.path = file.path.replace(options.suffix + ".", ".");
+						}
 						file.contents = buffer;
 
 						done(null, file);

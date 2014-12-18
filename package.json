@@ -1,6 +1,6 @@
 {
   "name": "gulp-unretina",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scales @2x images down to standard resolution",
   "main": "index.js",
   "homepage": "https://github.com/ramonfritsch/gulp-unretina",
@@ -16,12 +16,7 @@
   "bugs": {
     "url": "https://github.com/ramonfritsch/gulp-unretina/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/ramonfritsch/gulp-unretina/blob/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -29,7 +24,7 @@
     "test": "gulp"
   },
   "devDependencies": {
-    "gulp": "^3.5.5",
+    "gulp": "^3.5.5"
   },
   "keywords": [
     "gulpplugin",
