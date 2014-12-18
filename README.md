@@ -22,7 +22,7 @@ apt-get install graphicsmagick
 Mac OS X (using [Homebrew](http://brew.sh/)):
 
 ```shell
-brew install graphicsmagicks
+brew install graphicsmagick
 ```
 
 Windows & others: 
@@ -113,5 +113,6 @@ MIT © [Ramon Fritsch](http://www.cargocollective.com/ramon/)
 
 ## Release History
 
+ * 2014-12-17   v0.1.2   Updating README.md.
  * 2014-12-17   v0.1.1   Adding README.md and removing unused options.
  * 2014-12-17   v0.1.0   Initial release.
