@@ -1,6 +1,9 @@
 var gm = require("gm");
 var through = require("through2");
 var _ = require("lodash");
+var PluginError = require('plugin-error');
+
+var PLUGIN_NAME = "gulp-unretina";
 
 module.exports = function imageResizer(options) {
 	options = _.defaults(options || {}, {
