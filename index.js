@@ -34,11 +34,7 @@ module.exports = function imageResizer(options) {
 			else
 			{
 				gmFile.resize(Math.ceil(size.width / 2), Math.ceil(size.height / 2));
-
-				if (options.quality !== 1)
-				{
-					gmFile = gmFile.quality(Math.floor(options.quality * 100));
-				}
+				gmFile.quality(Math.floor(options.quality * 100));
 
 				gmFile.toBuffer(function (err, buffer) {
 					if (err)
